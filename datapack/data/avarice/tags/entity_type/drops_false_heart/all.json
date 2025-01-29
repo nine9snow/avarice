@@ -1,0 +1,9 @@
+{
+  "values": [
+    "#avarice:drops_false_heart/minimal",
+    "#avarice:drops_false_heart/low",
+    "#avarice:drops_false_heart/moderate",
+    "#avarice:drops_false_heart/increased",
+    "#avarice:drops_false_heart/maximum"
+  ]
+}

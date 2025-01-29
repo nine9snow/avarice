@@ -1,0 +1,2 @@
+summon minecraft:item_display ~ ~ ~ {Tags:[smithed.strict,avarice.tick,avarice.meteor],item:{id:"minecraft:dirt",count:1,components:{"minecraft:item_model": "avarice:meteor"}},transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[4f,4f,4f]},teleport_duration:2,view_range:8f,brightness:{sky:15,block:15},shadow_radius:6}
+execute as @n[type=minecraft:item_display,tag=avarice.meteor] run function avarice:curse/effect/debris/initiate

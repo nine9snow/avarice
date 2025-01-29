@@ -1,0 +1,29 @@
+{
+  "parent": "avarice:avarice/first_payment",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "frame": "goal",
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.avarice.streak.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:golden_apple"
+    },
+    "show_toast": false,
+    "title": {
+      "translate": "advancements.avarice.streak.title"
+    }
+  },
+  "requirements": [
+    [
+      "requirement"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

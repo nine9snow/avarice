@@ -1,0 +1,77 @@
+{
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "avarice:gilded_dungeon/halls/additions/addition_1",
+        "processors": "avarice:degradation",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "avarice:gilded_dungeon/halls/additions/addition_2",
+        "processors": "avarice:degradation",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "avarice:gilded_dungeon/halls/additions/addition_3",
+        "processors": "avarice:degradation",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "avarice:gilded_dungeon/halls/additions/addition_4",
+        "processors": "avarice:degradation",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "avarice:gilded_dungeon/halls/additions/addition_5",
+        "processors": "avarice:degradation",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "avarice:gilded_dungeon/halls/additions/addition_6",
+        "processors": "avarice:degradation",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "avarice:gilded_dungeon/halls/additions/addition_7",
+        "processors": "avarice:degradation",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "avarice:gilded_dungeon/halls/additions/addition_8",
+        "processors": "avarice:degradation",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

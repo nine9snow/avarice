@@ -1,0 +1,104 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "avarice:block/fountain/base",
+		"1": "avarice:block/fountain/filling",
+		"particle": "avarice:block/fountain/base"
+	},
+	"elements": [
+		{
+			"name": "plate",
+			"from": [-6, -13, -6],
+			"to": [22, -3, 22],
+			"rotation": {"angle": 0, "axis": "y", "origin": [-6, -15, -6]},
+			"faces": {
+				"north": {"uv": [16, 0, 13.5, 7], "rotation": 90, "texture": "#0"},
+				"east": {"uv": [16, 0, 13.5, 7], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [16, 0, 13.5, 7], "rotation": 90, "texture": "#0"},
+				"west": {"uv": [16, 0, 13.5, 7], "rotation": 90, "texture": "#0"},
+				"up": {"uv": [2.5, 0, 9.5, 7], "texture": "#0"},
+				"down": {"uv": [2.5, 7, 9.5, 14], "texture": "#0"}
+			}
+		},
+		{
+			"name": "hole",
+			"from": [-1, -3, -1],
+			"to": [17, -6, 17],
+			"rotation": {"angle": 0, "axis": "y", "origin": [-1, 2, -1]},
+			"faces": {
+				"north": {"uv": [11.5, 11.5, 16, 10.75], "texture": "#0"},
+				"east": {"uv": [11.5, 11.5, 16, 10.75], "texture": "#0"},
+				"south": {"uv": [11.5, 11.5, 16, 10.75], "texture": "#0"},
+				"west": {"uv": [11.5, 11.5, 16, 10.75], "texture": "#0"},
+				"up": {"uv": [11.5, 11.5, 16, 16], "texture": "#0"}
+			}
+		},
+		{
+			"name": "tube",
+			"from": [3, -6, 3],
+			"to": [13, 27, 13],
+			"rotation": {"angle": 0, "axis": "y", "origin": [3, -5, 3]},
+			"faces": {
+				"north": {"uv": [6.66668, 5.66667, 8.33335, 11.16667], "texture": "#1"},
+				"east": {"uv": [6.66668, 5.66667, 8.33335, 11.16667], "texture": "#1"},
+				"south": {"uv": [6.66668, 5.66667, 8.33335, 11.16667], "texture": "#1"},
+				"west": {"uv": [6.66668, 5.66667, 8.33335, 11.16667], "texture": "#1"},
+				"up": {"uv": [0, 8.25, 2.5, 10.75], "texture": "#0"}
+			}
+		},
+		{
+			"name": "pincher",
+			"from": [13, 22, -2],
+			"to": [13, 32, 3],
+			"rotation": {"angle": -45, "axis": "y", "origin": [13, 25, 3]},
+			"faces": {
+				"east": {"uv": [1.25, 10.75, 0, 13.25], "texture": "#0"},
+				"west": {"uv": [0, 10.75, 1.25, 13.25], "texture": "#0"}
+			}
+		},
+		{
+			"name": "pincher",
+			"from": [-2, 22, 3],
+			"to": [3, 32, 3],
+			"rotation": {"angle": -45, "axis": "y", "origin": [3, 25, 3]},
+			"faces": {
+				"north": {"uv": [1.25, 10.75, 0, 13.25], "texture": "#0"},
+				"south": {"uv": [0, 10.75, 1.25, 13.25], "texture": "#0"}
+			}
+		},
+		{
+			"name": "pincher",
+			"from": [3, 22, 13],
+			"to": [3, 32, 18],
+			"rotation": {"angle": -45, "axis": "y", "origin": [3, 25, 13]},
+			"faces": {
+				"east": {"uv": [0, 10.75, 1.25, 13.25], "texture": "#0"},
+				"west": {"uv": [1.25, 10.75, 0, 13.25], "texture": "#0"}
+			}
+		},
+		{
+			"name": "pincher",
+			"from": [13, 22, 13],
+			"to": [18, 32, 13],
+			"rotation": {"angle": -45, "axis": "y", "origin": [13, 25, 13]},
+			"faces": {
+				"north": {"uv": [0, 10.75, 1.25, 13.25], "texture": "#0"},
+				"south": {"uv": [1.25, 10.75, 0, 13.25], "texture": "#0"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "plate",
+			"origin": [-6, -16, -6],
+			"color": 0,
+			"children": [0, 1]
+		},
+		{
+			"name": "tube",
+			"origin": [13, 25, 13],
+			"color": 0,
+			"children": [2, 3, 4, 5, 6]
+		}
+	]
+}

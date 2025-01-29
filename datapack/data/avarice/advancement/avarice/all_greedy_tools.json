@@ -1,0 +1,129 @@
+{
+  "parent": "avarice:avarice/open_lockbox_miser",
+  "criteria": {
+    "sword": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:iron_sword",
+            "predicates": {
+              "minecraft:custom_data": {
+                "avarice": {
+                  "id": "greedy_sword"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "pickaxe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:iron_pickaxe",
+            "predicates": {
+              "minecraft:custom_data": {
+                "avarice": {
+                  "id": "greedy_pickaxe"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "axe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:iron_axe",
+            "predicates": {
+              "minecraft:custom_data": {
+                "avarice": {
+                  "id": "greedy_axe"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "shovel": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:iron_shovel",
+            "predicates": {
+              "minecraft:custom_data": {
+                "avarice": {
+                  "id": "greedy_shovel"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "hoe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:iron_hoe",
+            "predicates": {
+              "minecraft:custom_data": {
+                "avarice": {
+                  "id": "greedy_hoe"
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "frame": "challenge",
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.avarice.all_greedy_tools.description"
+    },
+    "icon": {
+      "components": {
+        "minecraft:item_model": "avarice:greedy_pickaxe"
+      },
+      "count": 1,
+      "id": "minecraft:poisonous_potato"
+    },
+    "show_toast": false,
+    "title": {
+      "translate": "advancements.avarice.all_greedy_tools.title"
+    }
+  },
+  "requirements": [
+    [
+      "sword"
+    ],
+    [
+      "pickaxe"
+    ],
+    [
+      "axe"
+    ],
+    [
+      "shovel"
+    ],
+    [
+      "hoe"
+    ]
+  ],
+  "rewards": {
+    "experience": 30
+  },
+  "sends_telemetry_event": false
+}

@@ -1,0 +1,29 @@
+{
+  "parent": "avarice:technical/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:slept_in_bed",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:value_check",
+            "value": {
+              "type": "minecraft:score",
+              "target": {
+                "type": "minecraft:fixed",
+                "name": "#punishment"
+              },
+              "score": "avarice.dummy"
+            },
+            "range": {
+              "min": 7
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "avarice:player/kick_from_bed"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "parent": "avarice:avarice/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "structures": "avarice:gilded_dungeon"
+          }
+        }
+      }
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.avarice.gilded_dungeon.description"
+    },
+    "icon": {
+      "components": {
+        "minecraft:item_model": "avarice:key_of_the_miser"
+      },
+      "count": 1,
+      "id": "minecraft:poisonous_potato"
+    },
+    "show_toast": false,
+    "title": {
+      "translate": "advancements.avarice.gilded_dungeon.title"
+    }
+  },
+  "requirements": [
+    [
+      "requirement"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

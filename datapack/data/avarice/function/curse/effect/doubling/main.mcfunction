@@ -1,0 +1,26 @@
+scoreboard players operation #temp_index avarice.dummy = @s avarice.index
+
+execute if entity @s[type=minecraft:blaze] run function avarice:curse/effect/doubling/macro {entity: "minecraft:blaze"}
+execute if entity @s[type=minecraft:creeper] run function avarice:curse/effect/doubling/macro {entity: "minecraft:creeper"}
+execute if entity @s[type=minecraft:drowned] run function avarice:curse/effect/doubling/macro {entity: "minecraft:drowned"}
+execute if entity @s[type=minecraft:endermite] run function avarice:curse/effect/doubling/macro {entity: "minecraft:endermite"}
+execute if entity @s[type=minecraft:evoker] run function avarice:curse/effect/doubling/macro {entity: "minecraft:evoker"}
+execute if entity @s[type=minecraft:illusioner] run function avarice:curse/effect/doubling/macro {entity: "minecraft:illusioner"}
+execute if entity @s[type=minecraft:ghast] run function avarice:curse/effect/doubling/macro {entity: "minecraft:ghast"}
+execute if entity @s[type=minecraft:guardian] run function avarice:curse/effect/doubling/macro {entity: "minecraft:guardian"}
+execute if entity @s[type=minecraft:husk] run function avarice:curse/effect/doubling/macro {entity: "minecraft:husk"}
+execute if entity @s[type=minecraft:phantom] run function avarice:curse/effect/doubling/macro {entity: "minecraft:phantom"}
+execute if entity @s[type=minecraft:piglin] run function avarice:curse/effect/doubling/macro {entity: "minecraft:piglin"}
+execute if entity @s[type=minecraft:piglin_brute] run function avarice:curse/effect/doubling/macro {entity: "minecraft:piglin_brute"}
+execute if entity @s[type=minecraft:pillager] run function avarice:curse/effect/doubling/macro {entity: "minecraft:pillager"}
+execute if entity @s[type=minecraft:ravager] run function avarice:curse/effect/doubling/macro {entity: "minecraft:ravager"}
+execute if entity @s[type=minecraft:skeleton] run function avarice:curse/effect/doubling/macro {entity: "minecraft:skeleton"}
+execute if entity @s[type=minecraft:stray] run function avarice:curse/effect/doubling/macro {entity: "minecraft:stray"}
+execute if entity @s[type=minecraft:vindicator] run function avarice:curse/effect/doubling/macro {entity: "minecraft:vindicator"}
+execute if entity @s[type=minecraft:witch] run function avarice:curse/effect/doubling/macro {entity: "minecraft:witch"}
+execute if entity @s[type=minecraft:wither_skeleton] run function avarice:curse/effect/doubling/macro {entity: "minecraft:wither_skeleton"}
+execute if entity @s[type=minecraft:zombie_villager] run function avarice:curse/effect/doubling/macro {entity: "minecraft:zombie_villager"}
+execute if entity @s[type=minecraft:zombified_piglin] run function avarice:curse/effect/doubling/macro {entity: "minecraft:zombified_piglin"}
+execute if entity @s[type=minecraft:zombie] run function avarice:curse/effect/doubling/macro {entity: "minecraft:zombie"}
+execute if entity @s[type=minecraft:cave_spider] run function avarice:curse/effect/doubling/macro {entity: "minecraft:cave_spider"}
+execute if entity @s[type=minecraft:spider] run function avarice:curse/effect/doubling/macro {entity: "minecraft:spider"}

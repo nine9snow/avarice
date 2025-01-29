@@ -1,0 +1,32 @@
+{
+  "parent": "avarice:avarice/complete_miser",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "frame": "goal",
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.avarice.open_lockbox_miser.description"
+    },
+    "icon": {
+      "components": {
+        "minecraft:item_model": "avarice:lockbox/unopened"
+      },
+      "count": 1,
+      "id": "minecraft:poisonous_potato"
+    },
+    "show_toast": false,
+    "title": {
+      "translate": "advancements.avarice.open_lockbox_miser.title"
+    }
+  },
+  "requirements": [
+    [
+      "requirement"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

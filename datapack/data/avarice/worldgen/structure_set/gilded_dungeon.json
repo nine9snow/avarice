@@ -1,0 +1,18 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 59194301,
+    "separation": 10,
+    "spacing": 30
+  },
+  "structures": [
+    {
+      "structure": "avarice:gilded_dungeon",
+      "weight": 1
+    }
+  ],
+  "exclusion_zone": {
+    "other_set": "minecraft:trial_chambers",
+    "chunk_count": 12
+  }
+}

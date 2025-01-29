@@ -1,0 +1,40 @@
+{
+  "condition": "minecraft:all_of",
+  "terms": [
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "block": {
+          "blocks": "#minecraft:air"
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetY": 1,
+      "predicate": {
+        "block": {
+          "blocks": "#minecraft:air"
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetY": 2,
+      "predicate": {
+        "block": {
+          "blocks": "#minecraft:air"
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetY": 3,
+      "predicate": {
+        "block": {
+          "blocks": "#minecraft:air"
+        }
+      }
+    }
+  ]
+}

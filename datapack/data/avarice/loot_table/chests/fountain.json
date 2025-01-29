@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 3,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "avarice:items/false_heart"
+        }
+      ]
+    }
+  ],
+  "random_sequence": "avarice:chests/fountain"
+}

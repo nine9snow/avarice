@@ -1,0 +1,28 @@
+{
+  "parent": "avarice:avarice/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.avarice.first_payment.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:apple"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.avarice.first_payment.title"
+    }
+  },
+  "requirements": [
+    [
+      "requirement"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

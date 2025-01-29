@@ -1,0 +1,28 @@
+{
+  "parent": "avarice:avarice/gilded_dungeon",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.avarice.complete_miser.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:flint_and_steel"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.avarice.complete_miser.title"
+    }
+  },
+  "requirements": [
+    [
+      "requirement"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

@@ -1,0 +1,56 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{avarice:{id:\"key_of_the_miser\", lockbox: 1}}"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "avarice:key_of_the_miser",
+                "!minecraft:consumable": {},
+                "minecraft:tooltip_style": "avarice:avarice"
+              }
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "item.avarice.key_of_the_miser"
+              },
+              "target": "item_name"
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                [
+                  {
+                    "text": "0 ",
+                    "color": "white",
+                    "font": "avarice:icon",
+                    "italic": false
+                  },
+                  {
+                    "translate": "pack.avarice",
+                    "color": "#FFD800",
+                    "italic": false,
+                    "font": "avarice:five"
+                  }
+                ]
+              ],
+              "mode": "replace_all"
+            }
+          ],
+          "name": "minecraft:poisonous_potato"
+        }
+      ]
+    }
+  ],
+  "random_sequence": "avarice:items/key_of_the_miser"
+}

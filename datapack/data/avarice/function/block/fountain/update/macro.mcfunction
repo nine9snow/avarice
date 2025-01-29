@@ -1,0 +1,3 @@
+$summon minecraft:text_display ~ ~3.5 ~ {text: '[{"translate":"$(translation)"}, {"text":" "}, {"text":"x$(requested_count)","color":"gray"}]', billboard: "center", Tags:["smithed.strict", "avarice.requests"]}
+$summon minecraft:item_display ~ ~3 ~ {item: {id:"minecraft:dirt", count:1, components: {"minecraft:item_model":"$(model)"}}, billboard: "center", transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[0.5f,0.5f,0.5f]}, brightness: {sky:15,block:15}, Tags:["smithed.strict","avarice.requests"]}
+execute positioned ~ ~3 ~ as @n[type=minecraft:item_display,tag=avarice.requests] if items entity @s container.0 #avarice:leather_items run data modify entity @s item.components."minecraft:dyed_color" set value 10511680

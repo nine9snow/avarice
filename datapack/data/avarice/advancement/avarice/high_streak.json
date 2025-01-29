@@ -1,0 +1,32 @@
+{
+  "parent": "avarice:avarice/streak",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "frame": "challenge",
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.avarice.high_streak.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:enchanted_golden_apple"
+    },
+    "show_toast": false,
+    "title": {
+      "translate": "advancements.avarice.high_streak.title"
+    }
+  },
+  "requirements": [
+    [
+      "requirement"
+    ]
+  ],
+  "rewards": {
+    "experience": 100
+  },
+  "sends_telemetry_event": false
+}

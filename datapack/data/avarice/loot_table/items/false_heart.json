@@ -1,0 +1,61 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{avarice:{id:\"false_heart\"}}"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "avarice:false_heart",
+                "!minecraft:consumable": {},
+                "minecraft:rarity": "uncommon",
+                "minecraft:tooltip_style": "avarice:avarice"
+              }
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "item.avarice.false_heart"
+              },
+              "target": "item_name"
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate": "item.avarice.false_heart.description",
+                  "color": "gray"
+                },
+                [
+                  {
+                    "text": "0 ",
+                    "color": "white",
+                    "font": "avarice:icon",
+                    "italic": false
+                  },
+                  {
+                    "translate": "pack.avarice",
+                    "color": "#FFD800",
+                    "italic": false,
+                    "font": "avarice:five"
+                  }
+                ]
+              ],
+              "mode": "replace_all"
+            }
+          ],
+          "name": "minecraft:poisonous_potato"
+        }
+      ]
+    }
+  ],
+  "random_sequence": "avarice:items/false_heart"
+}

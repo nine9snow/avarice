@@ -1,0 +1,19 @@
+{
+  "pack": {
+    "pack_format": 61,
+    "description": [
+      {
+        "text": "Avarice",
+        "color": "#FFD800"
+      },
+      {
+        "text": " | ",
+        "color": "dark_gray"
+      },
+      {
+        "text": "by @ninesnow",
+        "color": "#31364F"
+      }
+    ]
+  }
+}

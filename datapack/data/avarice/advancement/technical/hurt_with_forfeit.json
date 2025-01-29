@@ -1,0 +1,32 @@
+{
+  "parent": "avarice:technical/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:value_check",
+            "value": {
+              "type": "minecraft:score",
+              "target": {
+                "type": "minecraft:fixed",
+                "name": "#curse"
+              },
+              "score": "avarice.dummy"
+            },
+            "range": 5
+          }
+        ],
+        "damage": {
+          "taken": {
+            "min": 3
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "avarice:curse/effect/forfeit/main"
+  }
+}

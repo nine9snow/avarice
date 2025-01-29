@@ -1,0 +1,64 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_shovel",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{avarice:{id:\"greedy_shovel\",greedy_tool:1}}"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "avarice:greedy_shovel",
+                "minecraft:tooltip_style": "avarice:avarice",
+                "minecraft:repairable": {
+                  "items": "minecraft:gold_ingot"
+                },
+                "minecraft:max_damage": 1000,
+                "minecraft:damage": 0
+              }
+            },
+            {
+              "function": "minecraft:set_name",
+              "target": "item_name",
+              "name": {
+                "translate": "item.avarice.greedy_shovel"
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate": "item.avarice.greedy_tools.description",
+                  "color": "gray"
+                },
+                [
+                  {
+                    "text": "0 ",
+                    "color": "white",
+                    "font": "avarice:icon",
+                    "italic": false
+                  },
+                  {
+                    "translate": "pack.avarice",
+                    "color": "#FFD800",
+                    "font": "avarice:five",
+                    "italic": false
+                  }
+                ]
+              ],
+              "mode": "replace_all"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "random_sequence": "avarice:items/greedy_shovel"
+}

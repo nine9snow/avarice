@@ -1,0 +1,223 @@
+{
+  "block.fountain.donate": {
+    "sounds": [
+      "avarice:block/fountain/donate1",
+      "avarice:block/fountain/donate2",
+      "avarice:block/fountain/donate3"
+    ],
+    "subtitle": "subtitles.avarice.block.fountain.donate"
+  },
+  "block.fountain.payout": {
+    "sounds": [
+      "avarice:block/fountain/payout"
+    ],
+    "subtitle": "subtitles.avarice.block.fountain.payout"
+  },
+  "block.fountain.new_request": {
+    "sounds": [
+      "avarice:block/fountain/waiter_waiter_more_items"
+    ],
+    "subtitle": "subtitles.avarice.block.fountain.new_request"
+  },
+  "block.fountain.begin_revive": {
+    "sounds": [
+      "avarice:block/fountain/revive_start"
+    ],
+    "subtitle": "subtitles.avarice.block.fountain.begin_revive"
+  },
+  "block.fountain.revive": {
+    "sounds": [
+      "avarice:block/fountain/revive_end"
+    ],
+    "subtitle": "subtitles.avarice.block.fountain.revive"
+  },
+  "block.death_urn.hit": {
+    "sounds": [
+      "block/decorated_pot/step1",
+      "block/decorated_pot/step2",
+      "block/decorated_pot/step3",
+      "block/decorated_pot/step4",
+      "block/decorated_pot/step5"
+    ],
+    "subtitle": "subtitles.block.generic.hit"
+  },
+  "block.death_urn.break": {
+    "sounds": [
+      "block/decorated_pot/break1",
+      "block/decorated_pot/break2",
+      "block/decorated_pot/break3",
+      "block/decorated_pot/break4"
+    ],
+    "subtitle": "subtitles.block.generic.break"
+  },
+  "block.miser.ignite_flint_and_steel": {
+    "sounds": [
+      "fire/ignite"
+    ]
+  },
+  "block.miser.ignite_fire_charge": {
+    "sounds": [
+      "mob/ghast/fireball4"
+    ]
+  },
+  "block.miser.ignite": {
+    "sounds": [
+      "avarice:block/miser/ignite"
+    ],
+    "subtitle": "subtitles.avarice.block.miser.ignite"
+  },
+  "block.miser.reject": {
+    "sounds": [
+      "block/vault/insert_fail"
+    ],
+    "subtitle": "subtitles.avarice.block.miser.reject"
+  },
+  "block.miser.summon": {
+    "sounds": [
+      "avarice:block/miser/summon1",
+      "avarice:block/miser/summon2",
+      "avarice:block/miser/summon3",
+      "avarice:block/miser/summon4"
+    ],
+    "subtitle": "subtitles.avarice.block.miser.summon"
+  },
+  "block.miser.complete": {
+    "sounds": [
+      "avarice:block/miser/complete"
+    ],
+    "subtitle": "subtitles.avarice.block.miser.complete"
+  },
+  "block.miser.eject_item": {
+    "sounds": [
+      "avarice:block/miser/eject_item"
+    ],
+    "subtitle": "subtitles.avarice.block.miser.eject_item"
+  },
+  "block.miser.glow": {
+    "sounds": [
+      "avarice:block/miser/glow"
+    ],
+    "subtitle": "subtitles.avarice.block.miser.glow"
+  },
+  "entity.blazing": {
+    "sounds": [
+      "mob/ghast/fireball4"
+    ],
+    "subtitle": "subtitles.avarice.entity.blazing"
+  },
+  "entity.vexed": {
+    "sounds": [
+      "mob/vex/charge1",
+      "mob/vex/charge2",
+      "mob/vex/charge3"
+    ],
+    "subtitle": "subtitles.avarice.entity.vexed"
+  },
+  "curse.wheel_begin": {
+    "sounds": [
+      "avarice:curse/wheel/wheel_begin"
+    ],
+    "subtitle": "subtitles.avarice.curse.wheel_begin"
+  },
+  "curse.wheel_end": {
+    "sounds": [
+      "avarice:curse/wheel/wheel_end"
+    ],
+    "subtitle": "subtitles.avarice.curse.wheel_end"
+  },
+  "curse.toll": {
+    "sounds": [
+      {
+        "attenuation_distance": 8,
+        "name": "block/candle/extinguish1"
+      }
+    ],
+    "subtitle": "subtitles.avarice.curse.toll"
+  },
+  "curse.debris.ambient": {
+    "sounds": [
+      {
+        "name": "avarice:curse/debris/ambient",
+        "pitch": 1.0
+      },
+      {
+        "name": "avarice:curse/debris/ambient",
+        "pitch": 0.9
+      },
+      {
+        "name": "avarice:curse/debris/ambient",
+        "pitch": 0.8
+      }
+    ],
+    "subtitle": "subtitles.avarice.curse.debris.ambient"
+  },
+  "curse.debris.explode": {
+    "sounds": [
+      "avarice:curse/debris/explode1",
+      "avarice:curse/debris/explode2",
+      "avarice:curse/debris/explode3"
+    ],
+    "subtitle": "subtitles.avarice.curse.debris.explode"
+  },
+  "entity.increase_size": {
+    "sounds": [
+      "avarice:entity/grow1",
+      "avarice:entity/grow2"
+    ],
+    "subtitle": "subtitles.avarice.entity.increase_size"
+  },
+  "entity.decrease_size": {
+    "sounds": [
+      "avarice:entity/shrink1",
+      "avarice:entity/shrink2"
+    ],
+    "subtitle": "subtitles.avarice.entity.decrease_size"
+  },
+  "block.lockbox.reject": {
+    "sounds": [
+      "block/vault/reject_rewarded_player"
+    ],
+    "subtitle": "subtitles.avarice.block.lockbox.reject"
+  },
+  "block.lockbox.open_charity": {
+    "sounds": [
+      "avarice:block/lockbox/open_charity"
+    ],
+    "subtitle": "subtitles.avarice.block.lockbox.open"
+  },
+  "block.lockbox.open_miser": {
+    "sounds": [
+      "avarice:block/lockbox/open_miser"
+    ],
+    "subtitle": "subtitles.avarice.block.lockbox.open"
+  },
+  "block.lockbox.close": {
+    "sounds": [
+      "block/trial_spawner/close_shutter"
+    ],
+    "subtitle": "subtitles.avarice.block.lockbox.close"
+  },
+  "block.lockbox.eject_item": {
+    "sounds": [
+      "block/trial_spawner/eject_item1"
+    ],
+    "subtitle": "subtitles.avarice.block.lockbox.eject_item"
+  },
+  "item.burn": {
+    "sounds": [
+      "avarice:item/burn1",
+      "avarice:item/burn2",
+      "avarice:item/burn3",
+      "avarice:item/burn4"
+    ],
+    "subtitle": "subtitles.avarice.item.burn"
+  },
+  "entity.sneeze": {
+    "sounds": [
+      "mob/fox/spit1",
+      "mob/fox/spit2",
+      "mob/fox/spit3"
+    ],
+    "subtitle": "subtitles.avarice.entity.sneeze"
+  }
+}

@@ -1,0 +1,3 @@
+execute align xyz run summon item_display ~0.5 ~ ~0.5 {transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,1.32f,0f],scale:[1f,1f,1f]},item:{id:"minecraft:dirt",count:0,components:{"minecraft:item_model":"avarice:fountain/0"}},Tags:["smithed.strict","avarice.fountain","avarice.block"],Passengers:[{id:"minecraft:interaction",width:1.01f,height:2.5f,response:1b,Tags:["smithed.strict","avarice.fountain"]}],view_range:4f}
+execute align xyz positioned ~0.5 ~ ~0.5 as @n[type=minecraft:item_display,tag=avarice.fountain] run function avarice:block/fountain/update/main
+fill ~ ~ ~ ~ ~1 ~ minecraft:barrier
