@@ -5,10 +5,11 @@ data modify storage avarice:requests root.list append value {id: "minecraft:stic
 data modify storage avarice:requests root.list append value {id: "minecraft:apple", model: "minecraft:apple", translation: "item.minecraft.apple", count: [1, 3], days: [0, 1], reduce_scaling: "partial"}
 data modify storage avarice:requests root.list append value {id: "minecraft:wheat_seeds", model: "minecraft:wheat_seeds", translation: "item.minecraft.wheat_seeds", count: [3, 6], days: [0, 1]}
 data modify storage avarice:requests root.list append value {id: "minecraft:chicken", model: "minecraft:chicken", translation: "item.minecraft.chicken", count: [1, 2], days: [0, 4], reduce_scaling: "partial"}
+data modify storage avarice:requests root.list append value {id: "minecraft:egg", model: "minecraft:egg", translation: "item.minecraft.egg", count: [2, 4], days: [0, 4], reduce_scaling: "partial"}
 data modify storage avarice:requests root.list append value {id: "minecraft:beef", model: "minecraft:beef", translation: "item.minecraft.beef", count: [1, 3], days: [0, 4], reduce_scaling: "partial"}
 data modify storage avarice:requests root.list append value {id: "minecraft:porkchop", model: "minecraft:porkchop", translation: "item.minecraft.porkchop", count: [1, 3], days: [0, 4], reduce_scaling: "partial"}
 data modify storage avarice:requests root.list append value {id: "minecraft:stone", model: "minecraft:stone", translation: "block.minecraft.stone", count: [8, 12], days: [0, 3]}
-data modify storage avarice:requests root.list append value {id: "minecraft:sand", model: "minecraft:sand", translation: "block.minecraft.sand", count: [12, 24], days: [1, 6]}
+data modify storage avarice:requests root.list append value {id: "minecraft:sand", model: "minecraft:sand", translation: "block.minecraft.sand", count: [12, 24], days: [1, 3]}
 data modify storage avarice:requests root.list append value {id: "minecraft:coal", model: "minecraft:coal", translation: "item.minecraft.coal", count: [8, 15], days: [1, 6]}
 data modify storage avarice:requests root.list append value {id: "minecraft:copper_ingot", model: "minecraft:copper_ingot", translation: "item.minecraft.copper_ingot", count: [8, 12], days: [2, 8]}
 data modify storage avarice:requests root.list append value {id: "minecraft:brick", model: "minecraft:brick", translation: "item.minecraft.brick", count: [2, 4], days: [2, 8], reduce_scaling: "partial"}
@@ -24,14 +25,15 @@ data modify storage avarice:requests root.list append value {id: "minecraft:gunp
 data modify storage avarice:requests root.list append value {id: "minecraft:tnt", model: "minecraft:tnt", translation: "block.minecraft.tnt", count: [1, 2], days: [3, 24], reduce_scaling: "full"}
 data modify storage avarice:requests root.list append value {id: "minecraft:smoker", model: "minecraft:smoker", translation: "block.minecraft.smoker", count: [2, 4], days: [3, 8]}
 data modify storage avarice:requests root.list append value {id: "minecraft:grindstone", model: "minecraft:grindstone", translation: "block.minecraft.grindstone", count: [1, 2], days: [3, 9]}
-data modify storage avarice:requests root.list append value {id: "minecraft:egg", model: "minecraft:egg", translation: "item.minecraft.egg", count: [1, 4], days: [3, 8]}
+data modify storage avarice:requests root.list append value {id: "minecraft:pumpkin", model: "minecraft:pumpkin", translation: "block.minecraft.pumpkin", count: [2, 4], days: [3, 8]}
 data modify storage avarice:requests root.list append value {id: "minecraft:leather_chestplate", model: "minecraft:leather_chestplate", translation: "item.minecraft.leather_chestplate", count: 1, days: [3, 9]}
 data modify storage avarice:requests root.list append value {id: "minecraft:leather_leggings", model: "minecraft:leather_leggings", translation: "item.minecraft.leather_leggings", count: 1, days: [3, 9]}
-data modify storage avarice:requests root.list append value {id: "minecraft:flint", model: "minecraft:flint", translation: "item.minecraft.flint", count: [4, 8], days: [3, 5]}
+data modify storage avarice:requests root.list append value {id: "minecraft:flint", model: "minecraft:flint", translation: "item.minecraft.flint", count: [4, 8], days: [3, 7], reduce_scaling: "partial"}
+data modify storage avarice:requests root.list append value {id: "minecraft:short_grass", model: "minecraft:short_grass", translation: "block.minecraft.short_grass", count: [8, 12], days: [4, 10]}
 data modify storage avarice:requests root.list append value {id: "minecraft:spider_eye", model: "minecraft:spider_eye", translation: "item.minecraft.spider_eye", count: [3, 5], days: [4, 19], reduce_scaling: "partial"}
 data modify storage avarice:requests root.list append value {id: "minecraft:ender_pearl", model: "minecraft:ender_pearl", translation: "item.minecraft.ender_pearl", count: [1, 2], days: [4, 19], reduce_scaling: "full"}
 data modify storage avarice:requests root.list append value {id: "minecraft:glass", model: "minecraft:glass", translation: "block.minecraft.glass", count: [5, 8], days: [4, 10]}
-data modify storage avarice:requests root.list append value {id: "minecraft:beetroot_soup", model: "minecraft:beetroot_soup", translation: "item.minecraft.beetroot_soup", count: 1, days: [4, 29], reduce_scaling: "full"}
+data modify storage avarice:requests root.list append value {id: "minecraft:beetroot", model: "minecraft:beetroot", translation: "item.minecraft.beetroot", count: [1, 3], days: [4, 29], reduce_scaling: "partial"}
 data modify storage avarice:requests root.list append value {id: "minecraft:sweet_berries", model: "minecraft:sweet_berries", translation: "item.minecraft.sweet_berries", count: [9, 12], days: [5, 18]}
 data modify storage avarice:requests root.list append value {id: "minecraft:bone", model: "minecraft:bone", translation: "item.minecraft.bone", count: [9, 12], days: [5, 10]}
 data modify storage avarice:requests root.list append value {id: "minecraft:book", model: "minecraft:book", translation: "item.minecraft.book", count: [1, 3], days: [6, 15], reduce_scaling: "partial"}
@@ -39,8 +41,8 @@ data modify storage avarice:requests root.list append value {id: "minecraft:ench
 data modify storage avarice:requests root.list append value {id: "minecraft:allium", model: "minecraft:allium", translation: "block.minecraft.allium", count: [1, 3], days: [6, 25], reduce_scaling: "partial"}
 data modify storage avarice:requests root.list append value {id: "minecraft:cake", model: "minecraft:cake", translation: "block.minecraft.cake", count: 1, days: [6, 100], reduce_scaling: "partial"}
 data modify storage avarice:requests root.list append value {id: "minecraft:lily_of_the_valley", model: "minecraft:lily_of_the_valley", translation: "block.minecraft.lily_of_the_valley", count: [1, 3], days: [6, 25], reduce_scaling: "partial"}
-data modify storage avarice:requests root.list append value {id: "minecraft:flower_banner_pattern", model: "minecraft:flower_banner_pattern", translation: "item.minecraft.flower_banner_pattern", count: 1, days: [6, 30], reduce_scaling: "full"}
-data modify storage avarice:requests root.list append value {id: "minecraft:field_masoned_banner_pattern", model: "minecraft:field_masoned_banner_pattern", translation: "item.minecraft.field_masoned_banner_pattern", count: 1, days: [6, 30], reduce_scaling: "full"}
+data modify storage avarice:requests root.list append value {id: "minecraft:flower_banner_pattern", model: "minecraft:flower_banner_pattern", translation: "item.minecraft.flower_banner_pattern", count: 1, days: [6, 30], reduce_scaling: "partial"}
+data modify storage avarice:requests root.list append value {id: "minecraft:field_masoned_banner_pattern", model: "minecraft:field_masoned_banner_pattern", translation: "item.minecraft.field_masoned_banner_pattern", count: 1, days: [6, 30], reduce_scaling: "partial"}
 data modify storage avarice:requests root.list append value {id: "minecraft:cooked_cod", model: "minecraft:cooked_cod", translation: "item.minecraft.cooked_cod", count: [3, 6], days: [5, 15]}
 data modify storage avarice:requests root.list append value {id: "minecraft:cooked_salmon", model: "minecraft:cooked_salmon", translation: "item.minecraft.cooked_salmon", count: [3, 6], days: [5, 15]}
 data modify storage avarice:requests root.list append value {id: "minecraft:gold_ingot", model: "minecraft:gold_ingot", translation: "item.minecraft.gold_ingot", count: [6, 10], days: [5, 10]}
@@ -69,6 +71,8 @@ data modify storage avarice:requests root.list append value {id: "minecraft:pois
 data modify storage avarice:requests root.list append value {id: "minecraft:blast_furnace", model: "minecraft:blast_furnace", translation: "block.minecraft.blast_furnace", count: [3, 6], days: [9, 20]}
 data modify storage avarice:requests root.list append value {id: "minecraft:amethyst_shard", model: "minecraft:amethyst_shard", translation: "item.minecraft.amethyst_shard", count: [12, 32], days: [10, 20]}
 data modify storage avarice:requests root.list append value {id: "minecraft:blue_orchid", model: "minecraft:blue_orchid", translation: "block.minecraft.blue_orchid", count: [1, 3], days: [6, 15], reduce_scaling: "partial"}
+data modify storage avarice:requests root.list append value {id: "minecraft:blaze_rod", model: "minecraft:blaze_rod", translation: "item.minecraft.blaze_rod", count: [2, 4], days: [11, 30]}
+data modify storage avarice:requests root.list append value {id: "minecraft:soul_sand", model: "minecraft:soul_sand", translation: "block.minecraft.soul_sand", count: [12, 20], days: [11, 30]}
 data modify storage avarice:requests root.list append value {id: "minecraft:glass", model: "minecraft:glass", translation: "block.minecraft.glass", count: [12, 24], days: [11, 18]}
 data modify storage avarice:requests root.list append value {id: "minecraft:book", model: "minecraft:book", translation: "item.minecraft.book", count: [6, 9], days: [11, 19]}
 data modify storage avarice:requests root.list append value {id: "minecraft:iron_ingot", model: "minecraft:iron_ingot", translation: "item.minecraft.iron_ingot", count: [16, 24], days: [11, 20]}
@@ -88,7 +92,6 @@ data modify storage avarice:requests root.list append value {id: "minecraft:disp
 data modify storage avarice:requests root.list append value {id: "minecraft:honeycomb", model: "minecraft:honeycomb", translation: "item.minecraft.honeycomb", count: [3, 6], days: [12, 18], reduce_scaling: "partial"}
 data modify storage avarice:requests root.list append value {id: "minecraft:honey_bottle", model: "minecraft:honey_bottle", translation: "item.minecraft.honey_bottle", count: [1, 3], days: [12, 18], reduce_scaling: "partial"}
 data modify storage avarice:requests root.list append value {id: "minecraft:candle", model: "minecraft:candle", translation: "block.minecraft.candle", count: [1, 3], days: [12, 25]}
-data modify storage avarice:requests root.list append value {id: "minecraft:beetroot", model: "minecraft:beetroot", translation: "item.minecraft.beetroot", count: [5, 9], days: [15, 25]}
 data modify storage avarice:requests root.list append value {id: "minecraft:activator_rail", model: "minecraft:activator_rail", translation: "block.minecraft.activator_rail", count: [4, 8], days: [15, 25]}
 data modify storage avarice:requests root.list append value {id: "minecraft:powered_rail", model: "minecraft:powered_rail", translation: "block.minecraft.powered_rail", count: [4, 8], days: [15, 25]}
 data modify storage avarice:requests root.list append value {id: "minecraft:ominous_bottle", model: "minecraft:ominous_bottle", translation: "item.minecraft.ominous_bottle", count: 1, days: [15, 100], reduce_scaling: "full"}
@@ -104,8 +107,6 @@ data modify storage avarice:requests root.list append value {id: "minecraft:hone
 data modify storage avarice:requests root.list append value {id: "minecraft:ice", model: "minecraft:ice", translation: "block.minecraft.ice", count: [4, 8], days: [20, 40]}
 data modify storage avarice:requests root.list append value {id: "minecraft:snowball", model: "minecraft:snowball", translation: "item.minecraft.snowball", count: [8, 16], days: [20, 30]}
 data modify storage avarice:requests root.list append value {id: "minecraft:book", model: "minecraft:book", translation: "item.minecraft.book", count: [12, 15], days: [20, 30]}
-data modify storage avarice:requests root.list append value {id: "minecraft:blaze_rod", model: "minecraft:blaze_rod", translation: "item.minecraft.blaze_rod", count: [2, 4], days: [20, 30]}
-data modify storage avarice:requests root.list append value {id: "minecraft:soul_sand", model: "minecraft:soul_sand", translation: "block.minecraft.soul_sand", count: [12, 20], days: [20, 30]}
 data modify storage avarice:requests root.list append value {id: "minecraft:glowstone_dust", model: "minecraft:glowstone_dust", translation: "item.minecraft.glowstone_dust", count: [12, 16], days: [20, 30]}
 data modify storage avarice:requests root.list append value {id: "minecraft:glowstone", model: "minecraft:glowstone", translation: "block.minecraft.glowstone", count: [2, 4], days: [20, 30]}
 data modify storage avarice:requests root.list append value {id: "minecraft:redstone_lamp", model: "minecraft:redstone_lamp", translation: "block.minecraft.redstone_lamp", count: [1, 2], days: [20, 30]}
@@ -137,7 +138,7 @@ data modify storage avarice:requests root.list append value {id: "minecraft:diam
 data modify storage avarice:requests root.list append value {id: "minecraft:gunpowder", model: "minecraft:gunpowder", translation: "item.minecraft.gunpowder", count: [8, 14], days: [26, 35]}
 data modify storage avarice:requests root.list append value {id: "minecraft:dune_armor_trim_smithing_template", model: "minecraft:dune_armor_trim_smithing_template", translation: "item.minecraft.dune_armor_trim_smithing_template", count: 1, days: [26, 35]}
 data modify storage avarice:requests root.list append value {id: "minecraft:cobweb", model: "minecraft:cobweb", translation: "block.minecraft.cobweb", count: [6, 12], days: [27, 50]}
-data modify storage avarice:requests root.list append value {id: "minecraft:beetroot_soup", model: "minecraft:beetroot_soup", translation: "item.minecraft.beetroot_soup", count: [1, 2], days: [30, 50], reduce_scaling: "partial"}
+data modify storage avarice:requests root.list append value {id: "minecraft:beetroot_soup", model: "minecraft:beetroot_soup", translation: "item.minecraft.beetroot_soup", count: [1, 2], days: [30, 50], reduce_scaling: "full"}
 data modify storage avarice:requests root.list append value {id: "minecraft:armadillo_scute", model: "minecraft:armadillo_scute", translation: "item.minecraft.armadillo_scute", count: [3, 6], days: [30, 50], reduce_scaling: "partial"}
 data modify storage avarice:requests root.list append value {id: "minecraft:mushroom_stew", model: "minecraft:mushroom_stew", translation: "item.minecraft.mushroom_stew", count: 1, days: [30, 50], reduce_scaling: "partial"}
 data modify storage avarice:requests root.list append value {id: "minecraft:red_mushroom_block", model: "minecraft:red_mushroom_block", translation: "block.minecraft.red_mushroom_block", count: [3, 12], days: [30, 75]}
@@ -240,6 +241,7 @@ data modify storage avarice:requests root.list append value {id: "minecraft:ochr
 data modify storage avarice:requests root.list append value {id: "minecraft:verdant_froglight", model: "minecraft:verdant_froglight", translation: "block.minecraft.verdant_froglight", count: [5, 10], days: [76, 100], reduce_scaling: "full"}
 data modify storage avarice:requests root.list append value {id: "minecraft:pearlescent_froglight", model: "minecraft:pearlescent_froglight", translation: "block.minecraft.pearlescent_froglight", count: [5, 10], days: [76, 100], reduce_scaling: "full"}
 data modify storage avarice:requests root.list append value {id: "minecraft:ender_eye", model: "minecraft:ender_eye", translation: "item.minecraft.ender_eye", count: [3, 8], days: [76, 100]}
+data modify storage avarice:requests root.list append value {id: "minecraft:end_crystal", model: "minecraft:end_crystal", translation: "block.minecraft.end_crystal", count: 1, days: [76, 100]}
 data modify storage avarice:requests root.list append value {id: "minecraft:resin_bricks", model: "minecraft:resin_bricks", translation: "block.minecraft.resin_bricks", count: [4, 6], days: [76, 100]}
 data modify storage avarice:requests root.list append value {id: "minecraft:ender_chest", model: "minecraft:ender_chest", translation: "block.minecraft.ender_chest", count: [1, 3], days: [76, 100]}
 data modify storage avarice:requests root.list append value {id: "minecraft:shulker_shell", model: "minecraft:shulker_shell", translation: "item.minecraft.shulker_shell", count: [3, 5], days: [76, 100]}

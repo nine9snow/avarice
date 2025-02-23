@@ -2,4 +2,5 @@ execute align xyz run summon minecraft:item_display ~0.5 ~ ~0.5 {transformation:
 execute align xyz run summon minecraft:text_display ~0.5 ~1.25 ~0.5 {text:'{"selector":"@p[tag=avarice.dying]"}',billboard:"center",Tags:["smithed.strict","avarice.death_urn"]}
 execute as @n[type=minecraft:item_display,tag=avarice.death_urn] run data modify entity @s item.components."minecraft:custom_data".items set from storage avarice:macro root.items
 
-execute unless block ~ ~ ~ minecraft:water run setblock ~ ~ ~ minecraft:air
+execute unless predicate avarice:submerged run setblock ~ ~ ~ minecraft:air
+execute if predicate avarice:submerged run setblock ~ ~ ~ minecraft:water

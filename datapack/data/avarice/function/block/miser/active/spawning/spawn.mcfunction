@@ -1,5 +1,5 @@
 scoreboard players operation #temp_monster avarice.dummy = #monster avarice.dummy
-execute if score #monster avarice.dummy matches 10..13 store result score #temp_monster avarice.dummy run random value 1..8 avarice:monsters
+execute if score #monster avarice.dummy matches 9..13 store result score #temp_monster avarice.dummy run random value 1..8 avarice:monsters
 scoreboard players remove #count avarice.dummy 1
 tag @s add avarice.ignite_delay
 
