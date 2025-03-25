@@ -5,3 +5,4 @@ execute if score #curse avarice.dummy matches 2 run function avarice:curse/effec
 execute if score #curse avarice.dummy matches 3 run function avarice:curse/effect/doubling/main
 
 data modify entity @s[type=#avarice:drops_false_heart/all] DeathLootTable set value "avarice:entities/replacement"
+execute if entity @s[type=#avarice:crown/can_be_crowned] run function avarice:entity/crown/check

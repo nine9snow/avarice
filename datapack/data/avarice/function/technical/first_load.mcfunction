@@ -1,3 +1,4 @@
+time set 0d
 scoreboard players set #installed avarice.dummy 1
 
 data merge storage avarice:config {permadeath: "true"}

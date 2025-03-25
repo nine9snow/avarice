@@ -1,0 +1,32 @@
+{
+  "parent": "avarice:technical/root",
+  "criteria": {
+    "crown": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "blocked": true,
+          "source_entity": {
+            "type": "#avarice:crown/skeleton"
+          },
+          "type": {
+            "tags": [
+              {
+                "id": "minecraft:is_projectile",
+                "expected": true
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "crown"
+    ]
+  ],
+  "rewards": {
+    "function": "avarice:entity/crown/effect/skeleton/main"
+  }
+}

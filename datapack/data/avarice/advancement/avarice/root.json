@@ -6,7 +6,7 @@
   },
   "display": {
     "announce_to_chat": false,
-    "background": "minecraft:textures/block/raw_gold_block.png",
+    "background": "minecraft:block/raw_gold_block",
     "description": {
       "translate": "advancements.avarice.root.description"
     },

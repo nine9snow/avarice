@@ -1,0 +1,27 @@
+{
+  "parent": "avarice:technical/root",
+  "criteria": {
+    "crown": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "damage": {
+          "type": {
+            "is_direct": true
+          }
+        },
+        "entity": {
+          "type": "minecraft:wither_skeleton",
+          "nbt": "{Tags:[\"avarice.crowned\"]}"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "crown"
+    ]
+  ],
+  "rewards": {
+    "function": "avarice:entity/crown/effect/wither_skeleton/main"
+  }
+}

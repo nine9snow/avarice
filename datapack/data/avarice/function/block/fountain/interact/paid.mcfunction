@@ -12,6 +12,6 @@ execute if score #punishment avarice.dummy matches 10 run scoreboard players rem
 execute as @n[type=minecraft:item_display,tag=avarice.fountain] run function avarice:block/fountain/state/main
 
 scoreboard players add #streak avarice.dummy 1
-execute if score #streak avarice.dummy matches 2.. run title @a actionbar {"translate": "ui.avarice.streak", "color": "yellow", "with": [{"score": {"name": "#streak", "objective": "avarice.dummy"}, "color": "gold"}]}
+execute if score #streak avarice.dummy matches 2.. run title @a actionbar {translate: "ui.avarice.streak", color: "yellow", with: [{"score": {"name": "#streak", "objective": "avarice.dummy"}, color: "gold"}]}
 execute if score #streak avarice.dummy matches 10.. run advancement grant @a[gamemode=!spectator] until avarice:avarice/streak
 execute if score #streak avarice.dummy matches 25.. run advancement grant @a[gamemode=!spectator] until avarice:avarice/high_streak

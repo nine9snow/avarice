@@ -1,1 +1,1 @@
-$title @s subtitle {"translate": "$(title).description", "color": "$(color)"}
+$title @s subtitle {translate: "$(title).description", color: "$(color)"}

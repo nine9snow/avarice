@@ -8,4 +8,4 @@ execute if data storage avarice:macro {root:{success: 1}} as @n[type=minecraft:i
 execute if data storage avarice:macro {root:{success: 2}} run item modify entity @s[gamemode=!creative] weapon.mainhand avarice:reduce_count
 execute if data storage avarice:macro {root:{success: 2}} run tag @s add avarice.reviving
 execute if data storage avarice:macro {root:{advancement: 1}} run advancement grant @s until avarice:avarice/first_payment
-execute if data storage avarice:macro {root:{paid: 1}} run title @s actionbar {"translate": "ui.avarice.already_paid", "color": "red"}
+execute if data storage avarice:macro {root:{paid: 1}} run title @s actionbar {translate: "ui.avarice.already_paid", color: "red"}

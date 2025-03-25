@@ -1,0 +1,22 @@
+{
+  "parent": "avarice:technical/root",
+  "criteria": {
+    "crown": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "#avarice:crown/illager",
+          "nbt": "{Tags:[\"avarice.crowned\"]}"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "crown"
+    ]
+  ],
+  "rewards": {
+    "function": "avarice:entity/crown/effect/illager"
+  }
+}

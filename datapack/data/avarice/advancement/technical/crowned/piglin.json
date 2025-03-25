@@ -1,0 +1,24 @@
+{
+  "parent": "avarice:technical/root",
+  "criteria": {
+    "crown": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "blocked": false,
+          "source_entity": {
+            "type": "#avarice:crown/piglin"
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "crown"
+    ]
+  ],
+  "rewards": {
+    "function": "avarice:entity/crown/effect/piglin"
+  }
+}

@@ -1,6 +1,6 @@
 # Time management
 execute store result score #day avarice.dummy run time query day
-execute unless score #day avarice.dummy = #old_day avarice.dummy run function avarice:technical/day_management/increase
+execute unless score #day avarice.dummy = #old_day avarice.dummy unless score #timestop avarice.dummy matches 1 run function avarice:technical/day_management/increase
 
 execute store result score #time avarice.dummy run time query daytime
 execute if score #punishment avarice.dummy matches 10.. if score #time avarice.dummy matches 18000..18100 run gamerule doDaylightCycle false
@@ -8,6 +8,10 @@ execute if score #punishment avarice.dummy matches 10.. if score #time avarice.d
 # Entities
 execute store result storage avarice:stats root.health float 0.125 run scoreboard players get #punishment avarice.dummy
 execute store result storage avarice:stats root.damage float 0.04 run scoreboard players get #punishment avarice.dummy
+
+scoreboard players operation #crown_chance avarice.dummy = #punishment avarice.dummy
+scoreboard players operation #crown_chance avarice.dummy *= #100 avarice.dummy
+scoreboard players operation #crown_chance avarice.dummy /= #3 avarice.dummy
 
 tag @e[type=#avarice:hostile,tag=avarice.possessed] remove avarice.possessed
 execute as @e[type=#avarice:second_clock] at @s run function avarice:technical/second_clock/as_entity
