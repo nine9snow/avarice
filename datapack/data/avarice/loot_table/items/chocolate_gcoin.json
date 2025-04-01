@@ -1,0 +1,62 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{avarice:{id:\"gcoin\"}}"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "avarice:chocolate_gcoin",
+                "minecraft:tooltip_style": "avarice:avarice",
+                "minecraft:consumable": {
+                  "consume_seconds": 0.8
+                },
+                "minecraft:food": {
+                  "nutrition": 1,
+                  "saturation": 0.4
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "item.avarice.chocolate_gcoin"
+              },
+              "target": "item_name"
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                [
+                  {
+                    "text": "0 ",
+                    "color": "white",
+                    "font": "avarice:icon",
+                    "italic": false
+                  },
+                  {
+                    "translate": "pack.avarice",
+                    "color": "#FFD800",
+                    "italic": false,
+                    "font": "avarice:five"
+                  }
+                ]
+              ],
+              "mode": "replace_all"
+            }
+          ],
+          "name": "minecraft:poisonous_potato"
+        }
+      ]
+    }
+  ],
+  "random_sequence": "avarice:items/chocolate_gcoin"
+}

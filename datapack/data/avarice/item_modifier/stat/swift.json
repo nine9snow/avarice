@@ -1,0 +1,34 @@
+[
+  {
+    "function": "minecraft:set_custom_data",
+    "tag": {
+      "avarice": {
+        "tier": {
+          "stat": "swift",
+          "modified": true
+        }
+      }
+    }
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        " ",
+        {
+          "translate": "modifier.avarice.positive",
+          "color": "dark_green",
+          "font": "avarice:five",
+          "italic": false,
+          "with": [
+            {
+              "translate": "modifier.avarice.swift"
+            }
+          ]
+        }
+      ]
+    ],
+    "mode": "append"
+  }
+]

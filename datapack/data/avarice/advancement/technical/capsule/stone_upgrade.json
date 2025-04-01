@@ -1,0 +1,27 @@
+{
+  "parent": "avarice:technical/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": {
+              "avarice": {
+                "upgrade": "stone"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "requirement"
+    ]
+  ],
+  "rewards": {
+    "function": "avarice:item/capsule/stone"
+  }
+}

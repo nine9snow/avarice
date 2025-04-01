@@ -16,6 +16,31 @@
   "item.avarice.key_of_the_miser": "Key of the Miser",
   "item.avarice.key_of_charity": "Key of Charity",
 
+  "item.avarice.stone_upgrade_capsule": "Stone Upgrade Capsule",
+  "item.avarice.iron_upgrade_capsule": "Iron Upgrade Capsule",
+  "item.avarice.gold_upgrade_capsule": "Gold Upgrade Capsule",
+  "item.avarice.diamond_upgrade_capsule": "Diamond Upgrade Capsule",
+  "item.avarice.netherite_upgrade_capsule": "Netherite Upgrade Capsule",
+  "item.avarice.enchanting_upgrade_capsule": "Enchanting Upgrade Capsule",
+  "item.avarice.archery_upgrade_capsule": "Archery Upgrade Capsule",
+  "item.avarice.gcoin": "G-Coin",
+  "item.avarice.chocolate_gcoin": "Chocolate G-Coin",
+
+  "modifier.avarice.positive": "+ %s",
+  "modifier.avarice.negative": "- %s",
+  "modifier.avarice.encumbering": "Encumbering",
+  "modifier.avarice.nimble": "Nimble",
+  "modifier.avarice.heavy": "Heavy",
+  "modifier.avarice.swift": "Swift",
+  "modifier.avarice.faulty": "Faulty",
+  "modifier.avarice.pointy": "Pointy",
+  "modifier.avarice.unstable": "Unstable",
+  "modifier.avarice.dispelling": "Dispelling",
+  "modifier.avarice.prickly": "Prickly",
+  "modifier.avarice.toxic": "Toxic",
+  "modifier.avarice.weak": "Weakening",
+  "modifier.avarice.tough": "Toughening",
+
   "item.avarice.music_disc_5": "Music Disc (5)",
   "item.avarice.music_disc_11": "Music Disc (11)",
   "item.avarice.music_disc_13": "Music Disc (13)",
@@ -71,6 +96,8 @@
   "subtitles.avarice.block.lockbox.open": "Lockbox opened",
   "subtitles.avarice.block.lockbox.close": "Lockbox closed",
   "subtitles.avarice.block.lockbox.eject_item": "Lockbox ejects item",
+  "subtitles.avarice.block.gachapon.insert": "Coin inserted",
+  "subtitles.avarice.block.gachapon.eject": "Gachapon ejects",
   "subtitles.avarice.entity.blazing": "Mob blazes",
   "subtitles.avarice.entity.vexed": "Mob vexes",
   "subtitles.avarice.entity.sneeze": "Player sneezes",
@@ -82,6 +109,9 @@
   "subtitles.avarice.entity.increase_size": "Entity grows",
   "subtitles.avarice.entity.decrease_size": "Entity shrinks",
   "subtitles.avarice.item.burn": "Helmet burning",
+  "subtitles.avarice.item.capsule.opening": "Capsule opening",
+  "subtitles.avarice.item.capsule.redeem": "Capsule redeemed",
+  "subtitles.avarice.ambient.nihahaha": "Nihahahaha!",
 
   "advancements.avarice.root.title": "Avarice",
   "advancements.avarice.root.description": "Greed makes the world go 'round",
@@ -99,6 +129,12 @@
   "advancements.avarice.open_lockbox_miser.description": "Open a lockbox using a key of the miser",
   "advancements.avarice.all_greedy_tools.title": "A True Scrooge",
   "advancements.avarice.all_greedy_tools.description": "Obtain all tools of greed",
+  "advancements.avarice.use_gachapon.title": "Let's Go Gambling!",
+  "advancements.avarice.use_gachapon.description": "Use the gachapon machine with G-Coins",
+  "advancements.avarice.use_capsule.title": "I Pull Up",
+  "advancements.avarice.use_capsule.description": "Use your first upgrade capsule",
+  "advancements.avarice.use_all_capsules.title": "Whale of a Time",
+  "advancements.avarice.use_all_capsules.description": "Use every upgrade capsule",
 
   "config.avarice.header": "%s Avarice Config",
   "config.avarice.true": "true",
@@ -109,11 +145,15 @@
 
   "death.attack.avarice.meteor": "%s was flattened by a meteor",
   "death.attack.avarice.sun": "%s experienced too much solar radiation",
+  "death.attack.avarice.prickly": "%s didn't see the spikes",
 
   "sleep.avarice.curse": "You may not rest now, the world is too cursed",
   "ui.avarice.streak": "Fountain of Greed streak: %s",
   "ui.avarice.streak_lost": "Fountain of Greed streak lost",
   "ui.avarice.already_paid": "Fountain of Greed already satisfied",
-  "ui.avarice.revive": "%s %s revived %s"
+  "ui.avarice.revive": "%s %s revived %s",
+  "ui.avarice.no_upgrade.tool": "Insufficient upgrades to use this tool",
+  "ui.avarice.no_upgrade.armor": "Insufficient upgrades to wear this armor",
+  "ui.avarice.redeem_capsule": "%s redeemed %s!"
 
 }

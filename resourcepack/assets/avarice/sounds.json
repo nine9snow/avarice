@@ -219,5 +219,67 @@
       "mob/fox/spit3"
     ],
     "subtitle": "subtitles.avarice.entity.sneeze"
+  },
+  "item.capsule.redeem": {
+    "sounds": [
+      "avarice:item/capsule/redeem"
+    ],
+    "subtitle": "subtitles.avarice.item.capsule.redeem"
+  },
+  "item.capsule.opening": {
+    "sounds": [
+      "block/bamboo/step1",
+      {
+        "name": "block/bamboo/step2",
+        "pitch": 0.7
+      },
+      "block/bamboo/step3",
+      {
+        "name": "block/bamboo/step4",
+        "pitch": 0.7
+      },
+      "block/bamboo/step5",
+      "block/bamboo/step6"
+    ],
+    "subtitle": "subtitles.avarice.item.capsule.opening"
+  },
+  "block.gachapon.roll": {
+    "sounds": [
+      "avarice:block/gachapon/roll"
+    ]
+  },
+  "block.gachapon.insert": {
+    "sounds": [
+      {
+        "name": "avarice:block/gachapon/insert",
+        "pitch": 1.0
+      },
+      {
+        "name": "avarice:block/gachapon/insert",
+        "pitch": 0.9
+      },
+      {
+        "name": "avarice:block/gachapon/insert",
+        "pitch": 1.1
+      }
+    ],
+    "subtitle": "subtitles.avarice.block.gachapon.insert"
+  },
+  "block.gachapon.eject": {
+    "sounds": [
+      {
+        "name": "avarice:block/gachapon/eject",
+        "pitch": 1.0
+      },
+      {
+        "name": "avarice:block/gachapon/eject",
+        "pitch": 0.9
+      },
+      {
+        "name": "avarice:block/gachapon/eject",
+        "pitch": 1.1
+      }
+    ],
+    "subtitle": "subtitles.avarice.block.gachapon.eject"
   }
 }

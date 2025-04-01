@@ -1,0 +1,18 @@
+{
+  "parent": "avarice:technical/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "#avarice:modified"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "avarice:item/tiers/modify/main"
+  }
+}

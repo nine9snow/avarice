@@ -1,0 +1,11 @@
+{
+  "values": [
+    "#avarice:tool_locks/stone",
+    "#avarice:tool_locks/iron",
+    "#avarice:tool_locks/gold",
+    "#avarice:tool_locks/diamond",
+    "#avarice:tool_locks/netherite",
+    "minecraft:trident",
+    "minecraft:mace"
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "avarice:items/gcoin",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:score",
+                "target": {
+                  "type": "minecraft:fixed",
+                  "name": "#players"
+                },
+                "score": "avarice.dummy"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "random_sequence": "avarice:gameplay/coin_count"
+}

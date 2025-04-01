@@ -1,0 +1,23 @@
+{
+  "parent": "avarice:technical/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "#avarice:armor_locks/any"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "requirement"
+    ]
+  ],
+  "rewards": {
+    "function": "avarice:item/upgrades/armor/main"
+  }
+}

@@ -15,3 +15,9 @@ scoreboard players add #streak avarice.dummy 1
 execute if score #streak avarice.dummy matches 2.. run title @a actionbar {translate: "ui.avarice.streak", color: "yellow", with: [{"score": {"name": "#streak", "objective": "avarice.dummy"}, color: "gold"}]}
 execute if score #streak avarice.dummy matches 10.. run advancement grant @a[gamemode=!spectator] until avarice:avarice/streak
 execute if score #streak avarice.dummy matches 25.. run advancement grant @a[gamemode=!spectator] until avarice:avarice/high_streak
+
+execute store result score #players avarice.dummy if entity @a[gamemode=!spectator]
+loot spawn ~ ~2.5 ~ loot avarice:gameplay/coin_count
+scoreboard players operation #rolls avarice.dummy = #streak avarice.dummy
+execute if score #rolls avarice.dummy matches 11.. run scoreboard players set #rolls avarice.dummy 10
+execute if score #rolls avarice.dummy matches 1.. run function avarice:block/fountain/interact/streak

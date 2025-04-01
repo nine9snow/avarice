@@ -1,0 +1,22 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "avarice:gameplay/gachapon/junk"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "avarice:gameplay/gachapon/uncommon"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "avarice:gameplay/gachapon/capsule"
+        }
+      ]
+    }
+  ],
+  "random_sequence": "avarice:gameplay/gachapon/main"
+}

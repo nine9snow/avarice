@@ -1,0 +1,42 @@
+{
+  "parent": "avarice:avarice/use_gachapon",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": {
+              "avarice": {
+                "id": "upgrade"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.avarice.use_capsule.description"
+    },
+    "icon": {
+      "components": {
+        "minecraft:item_model": "avarice:capsule/iron_upgrade"
+      },
+      "count": 1,
+      "id": "minecraft:poisonous_potato"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.avarice.use_capsule.title"
+    }
+  },
+  "requirements": [
+    [
+      "requirement"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

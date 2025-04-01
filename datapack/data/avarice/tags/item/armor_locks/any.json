@@ -1,0 +1,17 @@
+{
+  "values": [
+    "#avarice:armor_locks/iron",
+    "#avarice:armor_locks/gold",
+    "#avarice:armor_locks/diamond",
+    "#avarice:armor_locks/netherite",
+    "minecraft:turtle_helmet",
+    "minecraft:chainmail_helmet",
+    "minecraft:chainmail_chestplate",
+    "minecraft:chainmail_leggings",
+    "minecraft:chainmail_boots",
+    "minecraft:leather_helmet",
+    "minecraft:leather_chestplate",
+    "minecraft:leather_leggings",
+    "minecraft:leather_boots"
+  ]
+}

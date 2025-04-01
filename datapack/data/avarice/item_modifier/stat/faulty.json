@@ -1,0 +1,34 @@
+[
+  {
+    "function": "minecraft:set_custom_data",
+    "tag": {
+      "avarice": {
+        "tier": {
+          "stat": "faulty",
+          "modified": true
+        }
+      }
+    }
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        " ",
+        {
+          "translate": "modifier.avarice.negative",
+          "color": "dark_red",
+          "font": "avarice:five",
+          "italic": false,
+          "with": [
+            {
+              "translate": "modifier.avarice.faulty"
+            }
+          ]
+        }
+      ]
+    ],
+    "mode": "append"
+  }
+]

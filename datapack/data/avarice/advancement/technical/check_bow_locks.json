@@ -1,0 +1,59 @@
+{
+  "parent": "avarice:technical/root",
+  "criteria": {
+    "normal": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{Tags:[\"avarice.archery_upgrade\"]}"
+              }
+            }
+          }
+        ],
+        "item": {
+          "items": "#avarice:bows"
+        }
+      }
+    },
+    "enchanted": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{Tags:[\"avarice.enchanting_upgrade\"]}"
+              }
+            }
+          }
+        ],
+        "item": {
+          "items": "#avarice:bows",
+          "predicates": {
+            "minecraft:enchantments": [
+              {}
+            ]
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "normal",
+      "enchanted"
+    ]
+  ],
+  "rewards": {
+    "function": "avarice:item/upgrades/bows/main"
+  }
+}

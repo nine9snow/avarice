@@ -1,0 +1,169 @@
+[
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      ""
+    ],
+    "mode": "append"
+  },
+  
+  {
+    "function": "minecraft:set_custom_data",
+    "tag": {
+      "avarice": {
+        "tier": {
+          "modified": true,
+          "value": 1
+        }
+      }
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:value_check",
+        "value": {
+          "type": "minecraft:score",
+          "target": {
+            "type": "minecraft:fixed",
+            "name": "#tier"
+          },
+          "score": "avarice.dummy"
+        },
+        "range": 1
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "text": "ABB",
+        "color": "#ffffff",
+        "font": "avarice:icon",
+        "italic": false
+      }
+    ],
+    "mode": "append",
+    "conditions": [
+      {
+        "condition": "minecraft:value_check",
+        "value": {
+          "type": "minecraft:score",
+          "target": {
+            "type": "minecraft:fixed",
+            "name": "#tier"
+          },
+          "score": "avarice.dummy"
+        },
+        "range": 1
+      }
+    ]
+  },
+
+  {
+    "function": "minecraft:set_custom_data",
+    "tag": {
+      "avarice": {
+        "tier": {
+          "modified": true,
+          "value": 2
+        }
+      }
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:value_check",
+        "value": {
+          "type": "minecraft:score",
+          "target": {
+            "type": "minecraft:fixed",
+            "name": "#tier"
+          },
+          "score": "avarice.dummy"
+        },
+        "range": 2
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "text": "AAB",
+        "color": "#ffffff",
+        "font": "avarice:icon",
+        "italic": false
+      }
+    ],
+    "mode": "append",
+    "conditions": [
+      {
+        "condition": "minecraft:value_check",
+        "value": {
+          "type": "minecraft:score",
+          "target": {
+            "type": "minecraft:fixed",
+            "name": "#tier"
+          },
+          "score": "avarice.dummy"
+        },
+        "range": 2
+      }
+    ]
+  },
+
+  {
+    "function": "minecraft:set_custom_data",
+    "tag": {
+      "avarice": {
+        "tier": {
+          "modified": true,
+          "value": 3
+        }
+      }
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:value_check",
+        "value": {
+          "type": "minecraft:score",
+          "target": {
+            "type": "minecraft:fixed",
+            "name": "#tier"
+          },
+          "score": "avarice.dummy"
+        },
+        "range": 3
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "text": "AAA",
+        "color": "#ffffff",
+        "font": "avarice:icon",
+        "italic": false
+      }
+    ],
+    "mode": "append",
+    "conditions": [
+      {
+        "condition": "minecraft:value_check",
+        "value": {
+          "type": "minecraft:score",
+          "target": {
+            "type": "minecraft:fixed",
+            "name": "#tier"
+          },
+          "score": "avarice.dummy"
+        },
+        "range": 3
+      }
+    ]
+  }
+]

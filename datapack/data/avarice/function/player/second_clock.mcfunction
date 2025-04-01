@@ -7,3 +7,6 @@ execute if entity @s[nbt=!{Health:0f},tag=avarice.respawn_check] run function av
 
 execute if entity @s[gamemode=spectator] run effect give @s minecraft:night_vision 15 0 true
 execute if entity @s[gamemode=spectator,tag=!avarice.spectator] run function avarice:player/ghost/main
+
+execute if predicate avarice:chance/0.1 run function avarice:item/tiers/effects/prickly/main
+execute if predicate avarice:chance/0.05 run function avarice:item/tiers/effects/unstable/main

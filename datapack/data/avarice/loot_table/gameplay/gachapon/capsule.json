@@ -1,0 +1,83 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "avarice:items/capsule/archery_upgrade"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "avarice:items/capsule/stone_upgrade"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "avarice:items/capsule/iron_upgrade",
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{Tags:[\"avarice.stone_upgrade\"]}"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "avarice:items/capsule/gold_upgrade",
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{Tags:[\"avarice.iron_upgrade\"]}"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "avarice:items/capsule/diamond_upgrade",
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{Tags:[\"avarice.iron_upgrade\"]}"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "avarice:items/capsule/netherite_upgrade",
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{Tags:[\"avarice.diamond_upgrade\"]}"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "avarice:items/capsule/enchanting_upgrade",
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{Tags:[\"avarice.diamond_upgrade\"]}"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "random_sequence": "avarice:gameplay/gachapon/capsule"
+}

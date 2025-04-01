@@ -1,0 +1,145 @@
+{
+  "parent": "avarice:avarice/use_capsule",
+  "criteria": {
+    "stone": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": {
+              "avarice": {
+                "upgrade": "stone"
+              }
+            }
+          }
+        }
+      }
+    },
+    "iron": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": {
+              "avarice": {
+                "upgrade": "iron"
+              }
+            }
+          }
+        }
+      }
+    },
+    "gold": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": {
+              "avarice": {
+                "upgrade": "gold"
+              }
+            }
+          }
+        }
+      }
+    },
+    "diamond": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": {
+              "avarice": {
+                "upgrade": "diamond"
+              }
+            }
+          }
+        }
+      }
+    },
+    "netherite": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": {
+              "avarice": {
+                "upgrade": "netherite"
+              }
+            }
+          }
+        }
+      }
+    },
+    "archery": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": {
+              "avarice": {
+                "upgrade": "archery"
+              }
+            }
+          }
+        }
+      }
+    },
+    "enchanting": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": {
+              "avarice": {
+                "upgrade": "enchanting"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "display": {
+    "frame": "goal",
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.avarice.use_all_capsules.description"
+    },
+    "icon": {
+      "components": {
+        "minecraft:item_model": "avarice:capsule/netherite_upgrade"
+      },
+      "count": 1,
+      "id": "minecraft:poisonous_potato"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.avarice.use_all_capsules.title"
+    }
+  },
+  "requirements": [
+    [
+      "stone"
+    ],
+    [
+      "iron"
+    ],
+    [
+      "gold"
+    ],
+    [
+      "diamond"
+    ],
+    [
+      "netherite"
+    ],
+    [
+      "archery"
+    ],
+    [
+      "enchanting"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

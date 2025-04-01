@@ -1,0 +1,11 @@
+{
+  "parent": "avarice:technical/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:shot_crossbow"
+    }
+  },
+  "rewards": {
+    "function": "avarice:item/shot_crossbow/main"
+  }
+}

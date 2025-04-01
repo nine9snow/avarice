@@ -1,0 +1,20 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "avarice:items/normal_gcoin",
+          "weight": 99
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "avarice:items/chocolate_gcoin",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "random_sequence": "avarice:items/gcoin"
+}

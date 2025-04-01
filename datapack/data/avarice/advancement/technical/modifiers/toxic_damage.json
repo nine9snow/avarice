@@ -1,0 +1,33 @@
+{
+  "parent": "avarice:technical/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "mainhand": {
+              "predicates": {
+                "minecraft:custom_data": {
+                  "avarice": {
+                    "tier": {
+                      "stat": "toxic"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "damage": {
+          "type": {
+            "is_direct": true
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "avarice:item/tiers/effects/toxic_damage"
+  }
+}

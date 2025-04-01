@@ -5,6 +5,7 @@ scoreboard objectives add avarice.sun_exposure dummy
 scoreboard objectives add avarice.sneeze dummy
 scoreboard objectives add avarice.crown_timer dummy
 scoreboard objectives add avarice.relog minecraft.custom:minecraft.leave_game
+scoreboard objectives add avarice.shot_bow minecraft.used:minecraft.bow
 
 team add avarice.friendly_fire
 team modify avarice.friendly_fire friendlyFire false
@@ -21,6 +22,7 @@ function avarice:technical/second_clock/main
 # const
 scoreboard players set #2 avarice.dummy 2
 scoreboard players set #3 avarice.dummy 3
+scoreboard players set #5 avarice.dummy 5
 scoreboard players set #10 avarice.dummy 10
 scoreboard players set #20 avarice.dummy 20
 scoreboard players set #40 avarice.dummy 40

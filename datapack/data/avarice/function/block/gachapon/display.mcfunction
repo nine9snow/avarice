@@ -1,0 +1,2 @@
+summon minecraft:item_display ~ ~ ~ {item:{id:"minecraft:dirt",count:1,components:{"minecraft:item_model":"avarice:key_of_the_miser"}},billboard:"center",Tags:["smithed.strict","avarice.gachapon_display"],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,-0.15f,0f],scale:[0.5f,0.5f,0.5f]},item_display: "fixed"}
+loot replace entity @n[type=minecraft:item_display,tag=avarice.gachapon_display] container.0 loot avarice:gameplay/gachapon/display

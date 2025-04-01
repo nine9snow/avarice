@@ -28,6 +28,15 @@
 			]
 		},
 		{
+			"type": "bitmap",
+			"file": "avarice:gui/sprites/stars.png",
+			"ascent": 8,
+			"height": 9,
+			"chars": [
+				"AB"
+			]
+		},
+		{
 			"type": "space",
 			"advances": {
 				" ": 4

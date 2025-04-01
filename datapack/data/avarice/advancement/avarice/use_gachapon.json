@@ -1,0 +1,31 @@
+{
+  "parent": "avarice:avarice/first_payment",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.avarice.use_gachapon.description"
+    },
+    "icon": {
+      "components": {
+        "minecraft:item_model": "avarice:gcoin"
+      },
+      "count": 1,
+      "id": "minecraft:poisonous_potato"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.avarice.use_gachapon.title"
+    }
+  },
+  "requirements": [
+    [
+      "requirement"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

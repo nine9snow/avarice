@@ -1,0 +1,9 @@
+{
+  "ambient.cave": {
+    "sounds": [
+      "avarice:ambient/nihahaha"
+    ],
+    "subtitle": "subtitles.avarice.ambient.nihahaha",
+    "replace": true
+  }
+}
